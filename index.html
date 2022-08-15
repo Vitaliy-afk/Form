@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Create-acc</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <section>
+            <div class="container">
+                <form class="form" action="#" method="GET">
+                    <div class="photo-up">
+                        <input type='file' onchange="readURL(this);" required>
+                        <img id="blah" src="http://placehold.it/180" alt="your image" />
+                    </div>
+                    <label class="label" for="header">Header
+                        <input class="input" id="header" type="text" required>
+                    </label>
+                    <label class="label" for="link">Link
+                        <input class="input" id="link" type="url" required>
+                    </label>
+                    <textarea maxlength="250" name="" id="" cols="15" rows="10" required></textarea>
+                    <button class="btn-form" type="submit">Submit</button>
+                </form>
+                
+            </div>
+       </section>
+    </div>
+</body>
